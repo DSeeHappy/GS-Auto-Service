@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
-import serviceBg from "../../assets/images/backgrounds/service-hand-bg-1-1.png";
-import serviceLine from "../../assets/images/shapes/service-line-1-1.png";
-import blockTitleHeart from "../../assets/images/shapes/heart-2-1.png";
+import serviceBg from "../../public/assets/images/backgrounds/service-hand-bg-1-1.png";
+import serviceLine from "../../public/assets/images/shapes/service-line-1-1.png";
+import blockTitleHeart from "../../public/assets/images/shapes/heart-2-1.png";
 
 const serviceOneData = [
   {

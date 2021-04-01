@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
-import bgImage from "../../assets/images/backgrounds/page-header-1-1.jpg";
-import HeartImage from "../../assets/images/shapes/heart-2-1.png";
+import bgImage from "../../public/assets/images/backgrounds/page-header-1-1.jpg";
+import HeartImage from "../../public/assets/images/shapes/heart-2-1.png";
 
 const CallToActionTwo = () => {
   return (

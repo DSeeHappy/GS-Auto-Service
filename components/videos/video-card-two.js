@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
 import { Container, Row, Col } from "react-bootstrap";
-import videoBg from "../../assets/images/shapes/video-bg-1-1.png";
-import videoImage from "../../assets/images/resources/video-1-1.png";
+import videoBg from "../../public/assets/images/shapes/video-bg-1-1.png";
+import videoImage from "../../public/assets/images/resources/video-1-1.png";
 
 const VideoCardTwo = () => {
   const [isOpen, setOpen] = useState(false);
