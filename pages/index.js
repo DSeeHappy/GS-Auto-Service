@@ -1,48 +1,45 @@
 import React from "react";
 import Layout from "../components/layout";
-import HeaderOne from "../components/header/header-one";
+import HeaderTwo from "../components/header/header-two";
 import StickyHeader from "../components/header/sticky-header";
-import MainSlider from "../components/slider/main-slider";
-import VideoCardTwo from "../components/videos/video-card-two";
-import ServiceOne from "../components/services/service-one";
-import AboutCounter from "../components/about/about-counter";
+import MainSliderTwo from "../components/slider/main-slider-2";
+import AboutTwo from "../components/about/about-two";
+import VideoCard from "../components/videos/video-card";
+import FeaturedCause from "../components/featured-cause";
+import ServiceTwo from "../components/services/service-two";
+import FaqOne from "../components/faq-one";
 import CausesHome from "../components/causes/causes-home";
-import DonationOptions from "../components/donation-options";
-import TeamHome from "../components/team/team-home";
-import CallToActionTwo from "../components/call-to-action/call-to-action-two";
-import GalleryTestimonials from "../components/gallery/gallery-testimonials";
-import GalleryHome from "../components/gallery/gallery-home";
-import TestimonialsTwo from "../components/testimonials/testimonials-two";
-import BlogHome from "../components/blog/blog-home";
-import CallToAction from "../components/call-to-action/call-to-action";
-import GoogleMap from "../components/google-map";
+import PriceOne from "../components/price-one";
+import FactCounter from "../components/fact-counter";
 import BrandCarousel from "../components/brand-carousel";
+import TestimonialsOne from "../components/testimonials/testimonials-one";
+import GalleryHomeTwo from "../components/gallery/gallery-home-two";
+import BlogHomeTwo from "../components/blog/blog-home-two";
+import EventHomeTwo from "../components/event/event-home-two";
 import Footer from "../components/footer";
 
-const HomeOne = () => {
+const HomeTwo = () => {
   return (
-    <Layout pageTitle="Home One || Azino || Charity React Next Template">
-      <HeaderOne />
-      <StickyHeader />
-      <MainSlider />
-      <VideoCardTwo />
-      <ServiceOne />
-      <AboutCounter />
+    <Layout pageTitle="GS Auto Service || Lakewood Service Center">
+      <HeaderTwo />
+      <StickyHeader extraClassName="stricky-header-two" />
+      <MainSliderTwo />
+      <ServiceTwo />
+      <AboutTwo />
+      <VideoCard />
       <CausesHome />
-      <CallToActionTwo />
-      <DonationOptions />
-      <TeamHome />
-      <GalleryTestimonials>
-        <GalleryHome />
-        <TestimonialsTwo />
-      </GalleryTestimonials>
-      <BlogHome />
-      <CallToAction />
-      <GoogleMap extraClass="home" />
-      <BrandCarousel extraClass="client-carousel__has-top-shadow" />
+      <FeaturedCause />
+      <FaqOne />
+      <TestimonialsOne />
+      <FactCounter />
+      <PriceOne />
+      <GalleryHomeTwo />
+      <EventHomeTwo />
+      <BlogHomeTwo />
+      <BrandCarousel extraClass="client-carousel__has-border-top" />
       <Footer />
     </Layout>
   );
 };
 
-export default HomeOne;
+export default HomeTwo;
