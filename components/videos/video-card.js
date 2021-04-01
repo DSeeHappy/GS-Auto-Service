@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import Link from "next/link";
 import ModalVideo from "react-modal-video";
 import { Container } from "react-bootstrap";
-import bgImage from "../../assets/images/backgrounds/page-header-1-1.jpg";
-import heart from "../../assets/images/shapes/heart-2-1.png";
+import bgImage from "../../public/assets/images/backgrounds/page-header-1-1.jpg";
+import heart from "../../public/assets/images/shapes/heart-2-1.png";
 
 const VideoCard = () => {
   const [isOpen, setOpen] = useState(false);

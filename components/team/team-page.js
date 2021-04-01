@@ -1,12 +1,12 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import TeamCard from "./team-card";
-import teamImage1 from "../../assets/images/team/team-1-1.jpg";
-import teamImage2 from "../../assets/images/team/team-1-2.jpg";
-import teamImage3 from "../../assets/images/team/team-1-3.jpg";
-import teamImage4 from "../../assets/images/team/team-1-4.jpg";
-import teamImage5 from "../../assets/images/team/team-1-5.jpg";
-import teamImage6 from "../../assets/images/team/team-1-6.jpg";
+import teamImage1 from "../../public/assets/images/team/team-1-1.jpg";
+import teamImage2 from "../../public/assets/images/team/team-1-2.jpg";
+import teamImage3 from "../../public/assets/images/team/team-1-3.jpg";
+import teamImage4 from "../../public/assets/images/team/team-1-4.jpg";
+import teamImage5 from "../../public/assets/images/team/team-1-5.jpg";
+import teamImage6 from "../../public/assets/images/team/team-1-6.jpg";
 
 const TEAM_DATA = [
   {

@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Container } from "react-bootstrap";
 import NavLinks from "./nav-links";
 
-import flag1 from "../../assets/images/resources/flag-1-1.jpg";
-import logoDark from "../../assets/images/logo-dark.png";
+import flag1 from "../../public/assets/images/resources/flag-1-1.jpg";
+import logoDark from "../../public/assets/images/logo-dark.png";
 
 const HeaderTwo = () => {
   useEffect(() => {

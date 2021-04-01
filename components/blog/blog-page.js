@@ -4,12 +4,12 @@ import { Container } from "react-bootstrap";
 import PostPaginations from "../post-paginations";
 import BlogCard from "./blog-card";
 
-import blogImage1 from "../../assets/images/blog/blog-1-1.jpg";
-import blogImage2 from "../../assets/images/blog/blog-1-2.jpg";
-import blogImage3 from "../../assets/images/blog/blog-1-3.jpg";
-import blogImage4 from "../../assets/images/blog/blog-1-4.jpg";
-import blogImage5 from "../../assets/images/blog/blog-1-5.jpg";
-import blogImage6 from "../../assets/images/blog/blog-1-6.jpg";
+import blogImage1 from "../../public/assets/images/blog/blog-1-1.jpg";
+import blogImage2 from "../../public/assets/images/blog/blog-1-2.jpg";
+import blogImage3 from "../../public/assets/images/blog/blog-1-3.jpg";
+import blogImage4 from "../../public/assets/images/blog/blog-1-4.jpg";
+import blogImage5 from "../../public/assets/images/blog/blog-1-5.jpg";
+import blogImage6 from "../../public/assets/images/blog/blog-1-6.jpg";
 
 const BLOG_DATA = [
   {

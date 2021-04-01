@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import brandImage from "../assets/images/resources/brand-1-1.png";
+import brandImage from "../public/assets/images/resources/brand-1-1.png";
 
 const BrandCarousel = ({ extraClass }) => {
   const brandCarouselOptions = {

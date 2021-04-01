@@ -2,9 +2,9 @@ import React from "react";
 import Link from "next/link";
 import { Link as ScrollLink } from "react-scroll";
 import { Container, Row, Col } from "react-bootstrap";
-import logoLight from "../assets/images/logo-light.png";
-import blogPost1 from "../assets/images/resources/footer-img-1-1.jpg";
-import blogPost2 from "../assets/images/resources/footer-img-1-2.jpg";
+import logoLight from "../public/assets/images/logo-light.png";
+import blogPost1 from "../public/assets/images/resources/footer-img-1-1.jpg";
+import blogPost2 from "../public/assets/images/resources/footer-img-1-2.jpg";
 
 const Footer = () => {
   return (

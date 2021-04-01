@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import heart from "../../assets/images/shapes/heart-2-1.png";
+import heart from "../../public/assets/images/shapes/heart-2-1.png";
 
 const VolunteerForm = () => {
   return (

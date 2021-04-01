@@ -2,10 +2,10 @@ import React from "react";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Container, Row, Col } from "react-bootstrap";
-import heartImage from "../../assets/images/shapes/heart-2-1.png";
-import causeImage1 from "../../assets/images/causes/cause-1-1.jpg";
-import causeImage2 from "../../assets/images/causes/cause-1-4.jpg";
-import causeImage3 from "../../assets/images/causes/cause-1-3.jpg";
+import heartImage from "../../public/assets/images/shapes/heart-2-1.png";
+import causeImage1 from "../../public/assets/images/causes/cause-1-1.jpg";
+import causeImage2 from "../../public/assets/images/causes/cause-1-4.jpg";
+import causeImage3 from "../../public/assets/images/causes/cause-1-3.jpg";
 
 const CausesHomeData = [
   {

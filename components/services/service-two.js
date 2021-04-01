@@ -2,10 +2,10 @@ import React from "react";
 import Link from "next/link";
 import { Container } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
-import image1 from "../../assets/images/resources/service-1-1.jpg";
-import image2 from "../../assets/images/resources/service-1-2.jpg";
-import image3 from "../../assets/images/resources/service-1-3.jpg";
-import heart from "../../assets/images/shapes/heart-2-2.png";
+import image1 from "../../public/assets/images/resources/service-1-1.jpg";
+import image2 from "../../public/assets/images/resources/service-1-2.jpg";
+import image3 from "../../public/assets/images/resources/service-1-3.jpg";
+import heart from "../../public/assets/images/shapes/heart-2-2.png";
 const SERVICE_TWO_DATA = [
   {
     extraClassName: "background-primary",

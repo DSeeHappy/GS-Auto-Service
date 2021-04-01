@@ -3,9 +3,9 @@ import Head from "next/head";
 import MobileNav from "./mobile-nav";
 import SearchPopup from "./search-popup";
 
-import AppleTouch from "../assets/images/favicons/apple-touch-icon.png";
-import Fevicon32 from "../assets/images/favicons/favicon-32x32.png";
-import Fevicon16 from "../assets/images/favicons/favicon-16x16.png";
+import AppleTouch from "../public/assets/images/favicons/apple-touch-icon.png";
+import Fevicon32 from "../public/assets/images/favicons/favicon-32x32.png";
+import Fevicon16 from "../public/assets/images/favicons/favicon-16x16.png";
 
 const Layout = ({ pageTitle, children }) => {
   const handleRadius = () => {

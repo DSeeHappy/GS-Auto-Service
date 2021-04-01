@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 import { Container, Row, Col } from "react-bootstrap";
-import heartImage from "../../assets/images/shapes/heart-2-1.png";
-import aboutImage from "../../assets/images/resources/about-counter-1-1.jpg";
-import aboutHeart from "../../assets/images/shapes/about-count-heart-1-1.png";
+import heartImage from "../../public/assets/images/shapes/heart-2-1.png";
+import aboutImage from "../../public/assets/images/resources/about-counter-1-1.jpg";
+import aboutHeart from "../../public/assets/images/shapes/about-count-heart-1-1.png";
 
 const AboutCounter = () => {
   const [counter, setCounter] = useState({

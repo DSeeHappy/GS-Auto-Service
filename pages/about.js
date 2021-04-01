@@ -13,7 +13,7 @@ import Footer from "../components/footer";
 
 const About = () => {
   return (
-    <Layout pageTitle="About Page || Azino || Charity React Next Template">
+    <Layout pageTitle="About Page || GS Auto Service || Lakewood Service Center">
       <PageHeader title="About Page" crumbTitle="About" />
       <HeaderOne />
       <StickyHeader />

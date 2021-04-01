@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import EventCard from "./event-card";
-import bgImage from "../../assets/images/shapes/event-map-1-2.png";
-import image1 from "../../assets/images/events/event-1-1.jpg";
-import image2 from "../../assets/images/events/event-1-2.jpg";
-import image3 from "../../assets/images/events/event-1-3.jpg";
-import image4 from "../../assets/images/events/event-1-4.jpg";
-import heart from "../../assets/images/shapes/heart-2-1.png";
+import bgImage from "../../public/assets/images/shapes/event-map-1-2.png";
+import image1 from "../../public/assets/images/events/event-1-1.jpg";
+import image2 from "../../public/assets/images/events/event-1-2.jpg";
+import image3 from "../../public/assets/images/events/event-1-3.jpg";
+import image4 from "../../public/assets/images/events/event-1-4.jpg";
+import heart from "../../public/assets/images/shapes/heart-2-1.png";
 
 const EVENT_HOME_TWO_DATA = [
   {

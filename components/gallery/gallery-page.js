@@ -1,14 +1,14 @@
 import React from "react";
 import GalleryCard from "./gallery-card";
-import galleryImage1 from "../../assets/images/gallery/gallery-1-1.jpg";
-import galleryImage2 from "../../assets/images/gallery/gallery-1-2.jpg";
-import galleryImage3 from "../../assets/images/gallery/gallery-1-3.jpg";
-import galleryImage4 from "../../assets/images/gallery/gallery-1-4.jpg";
-import galleryImage5 from "../../assets/images/gallery/gallery-1-5.jpg";
-import galleryImage6 from "../../assets/images/gallery/gallery-1-6.jpg";
-import galleryImage7 from "../../assets/images/gallery/gallery-1-7.jpg";
-import galleryImage8 from "../../assets/images/gallery/gallery-1-8.jpg";
-import galleryImage9 from "../../assets/images/gallery/gallery-1-9.jpg";
+import galleryImage1 from "../../public/assets/images/gallery/gallery-1-1.jpg";
+import galleryImage2 from "../../public/assets/images/gallery/gallery-1-2.jpg";
+import galleryImage3 from "../../public/assets/images/gallery/gallery-1-3.jpg";
+import galleryImage4 from "../../public/assets/images/gallery/gallery-1-4.jpg";
+import galleryImage5 from "../../public/assets/images/gallery/gallery-1-5.jpg";
+import galleryImage6 from "../../public/assets/images/gallery/gallery-1-6.jpg";
+import galleryImage7 from "../../public/assets/images/gallery/gallery-1-7.jpg";
+import galleryImage8 from "../../public/assets/images/gallery/gallery-1-8.jpg";
+import galleryImage9 from "../../public/assets/images/gallery/gallery-1-9.jpg";
 
 const GalleryPage = () => {
   return (

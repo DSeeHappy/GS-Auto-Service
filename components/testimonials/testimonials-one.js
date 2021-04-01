@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import bgImage from "../../assets/images/shapes/testimonials-map-1-1.png";
-import heart from "../../assets/images/shapes/heart-2-1.png";
-import image1 from "../../assets/images/resources/testimonial-1-1.jpg";
-import image2 from "../../assets/images/resources/testimonial-1-2.jpg";
-import image3 from "../../assets/images/resources/testimonial-1-3.jpg";
+import bgImage from "../../public/assets/images/shapes/testimonials-map-1-1.png";
+import heart from "../../public/assets/images/shapes/heart-2-1.png";
+import image1 from "../../public/assets/images/resources/testimonial-1-1.jpg";
+import image2 from "../../public/assets/images/resources/testimonial-1-2.jpg";
+import image3 from "../../public/assets/images/resources/testimonial-1-3.jpg";
 
 const TESTIMONIALS_ONE_DATA = [
   {

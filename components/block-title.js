@@ -1,5 +1,5 @@
 import React from "react";
-import heart from "../assets/images/shapes/heart-2-1.png";
+import heart from "../public/assets/images/shapes/heart-2-1.png";
 
 const BlockTitle = ({ tagLine, title }) => {
   return (

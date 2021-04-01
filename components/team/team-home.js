@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import heartImage from "../../assets/images/shapes/heart-2-1.png";
-import bgImage from "../../assets/images/team/team-map-1-1.png";
-import teamImage1 from "../../assets/images/team/team-2-1.jpg";
-import teamImage2 from "../../assets/images/team/team-2-2.jpg";
-import teamImage3 from "../../assets/images/team/team-2-3.jpg";
-import teamImage4 from "../../assets/images/team/team-2-4.jpg";
+import heartImage from "../../public/assets/images/shapes/heart-2-1.png";
+import bgImage from "../../public/assets/images/team/team-map-1-1.png";
+import teamImage1 from "../../public/assets/images/team/team-2-1.jpg";
+import teamImage2 from "../../public/assets/images/team/team-2-2.jpg";
+import teamImage3 from "../../public/assets/images/team/team-2-3.jpg";
+import teamImage4 from "../../public/assets/images/team/team-2-4.jpg";
 
 const TeamData = [
   {
