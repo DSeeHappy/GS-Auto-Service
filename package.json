@@ -6,7 +6,7 @@
   "dependencies": {
     "bootstrap": "^4.5.0",
     "netlify-cli": "^3.13.10",
-    "next": "10.0.3",
+    "next": "^10.1.2",
     "next-images": "^1.4.0",
     "nprogress": "^0.2.0",
     "react": "^17.0.1",
