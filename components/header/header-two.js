@@ -50,7 +50,7 @@ const HeaderTwo = () => {
     <div className="main-header__two">
       <div className="main-header__top">
         <Container>
-          <p>Welcome to non profit charity platform</p>
+          <p>Welcome to GS Auto Service</p>
           <div className="main-header__social">
             <a href="#" aria-label="twitter">
               <i className="fab fa-twitter"></i>
@@ -84,7 +84,7 @@ const HeaderTwo = () => {
               <div className="header-info__box-content">
                 <h3>Email</h3>
                 <p>
-                  <a href="mailto:needhelp@azino.com">needhelp@azino.com</a>
+                  <a href="mailto:gilsa33@yahoo.com">gilsa33@yahoo.com</a>
                 </p>
               </div>
             </div>
@@ -93,15 +93,27 @@ const HeaderTwo = () => {
               <div className="header-info__box-content">
                 <h3>Phone</h3>
                 <p>
-                  <a href="tel:666-888-0000">666 888 0000</a>
+                  <a href="tel:303-525-4209">303 525 4209</a>
                 </p>
               </div>
             </div>
             <div className="header-info__box">
               <i className="azino-icon-address"></i>
-              <div className="header-info__box-content">
-                <h3>Visit</h3>
-                <p>88 Broklyn Golden Street, USA</p>
+             
+
+              <div className="main-header__info">
+
+                <ul className="list-unstyled main-header__info-list">
+                  <li>
+                    <a>Monday-Friday: 8AM - 6PM</a>
+                  </li>
+                  <li>
+                    <a>Saturday: 8AM - 2PM</a>
+                  </li>
+                  <li>
+                    <a>Sunday: CLOSED</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -111,7 +123,7 @@ const HeaderTwo = () => {
         <Container>
           <NavLinks extraClassName="dynamic-radius" />
           <Link href="/contact">
-            <a className="thm-btn dynamic-radius">Donate Now</a>
+            <a className="thm-btn dynamic-radius"></a>
           </Link>
         </Container>
       </nav>
