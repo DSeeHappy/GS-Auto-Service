@@ -7,33 +7,28 @@ import PageHeader from "../components/page-header";
 import Footer from "../components/footer";
 
 import detailsImage from "../public/assets/images/events/event-details-1-1.jpg";
+import HeaderTwo from "./../components/header/header-two";
 
 const EventDetails = () => {
   return (
-    <Layout pageTitle="Event Details Page || Azino || Charity React Next Template">
-      <HeaderOne />
+    <Layout pageTitle="Store Location || GS Auto Service || Lakewood Service Center">
+      <HeaderTwo />
       <StickyHeader />
-      <PageHeader title="Event Details" crumbTitle="Event Details" />
+      <PageHeader
+        title="Store Location"
+        crumbTitle="5420 W Alameda Ave, Lakewood, CO 80226"
+      />
       <>
         <section className="event-details pt-120">
           <Container>
             <Row>
               <Col md={12} lg={6}>
-                <h3>Help for needy people</h3>
+                <h3>Lakewood Service Center</h3>
+                <hr />
+                <p>Don't get thrown off by the location</p>
                 <p>
-                  There are many people variation of passages of lorem Ipsum
-                  available in the majority sed do eius tempor incididunt ut
-                  labore et alteration in some. Quuntur magni dolores eos qui
-                  ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                  qui dolorem ipsum quiaolor sit amet, consectetur, adipisci
-                  velit, sed quia non numquam eius modi tempora incidunt ut
-                  labore et dolore magnam dolor sit amet, consectetur
-                  adipisicing elit, sed do eiusmod tempor.
-                </p>
-                <p>
-                  Minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                  reprehenderit in voluptate velit esse cillum.
+                  We are behind Asaderos Mexican Restaurant so we can provide
+                  great parking.
                 </p>
               </Col>
               <Col md={12} lg={6}>
@@ -47,16 +42,15 @@ const EventDetails = () => {
             <Row>
               <Col md={12} lg={4} className="mb-30">
                 <div className="event-infos__single background-secondary">
-                  <h3>Venue</h3>
-                  <p>
-                    Neque porro quisquam est, qui dolorem ipsum quiaolor sit
-                    amet adipisci veli sed quiae.
-                  </p>
+                  <h3>Quality Local Auto Repair</h3>
                   <ul className="list-unstyled event-infos__list">
-                    <li>20 May, 2020</li>
-                    <li>9:00am 02:00pm</li>
-                    <li>New York</li>
+                    <li>Oil Changes</li>
+                    <li>Brake Services</li>
+                    <li>Front-End &amp; Suspension</li>
+                    <li>A/C Maintenance</li>
                   </ul>
+
+                
                   <div className="event-infos__social">
                     <a href="#">
                       <i className="fab fa-twitter"></i>
@@ -77,31 +71,32 @@ const EventDetails = () => {
                 <div className="google-map__event">
                   <iframe
                     title="template google map"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
-                    className="map__event"
+                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJRUbYeMCAa4cRKXgqZcOaVa4&key=AIzaSyBxrjs1NoCqtnd1vKKXe-uRdqzcaHUEyv0"
                     allowFullScreen
                   ></iframe>
                 </div>
               </Col>
               <Col md={12} lg={4} className="mb-30">
                 <div className="event-infos__single background-special">
-                  <h3>Organizer</h3>
+                  <h3>Gilberto Sanchez | Owner</h3>
                   <p>
-                    Neque porro quisquam est, qui dolorem ipsum quiaolor sit
-                    amet adipisci veli sed quiae.
+                    With over 20 years of experience, you are in great hands
                   </p>
                   <ul className="list-unstyled event-infos__list event-infos__list-has-icons">
                     <li>
                       <i className="azino-icon-telephone"></i>
-                      <a href="tel:6668880000">666 888 0000</a>
+                      <a href="tel:303-525-4209">(303) 525-4209</a>
                     </li>
                     <li>
                       <i className="azino-icon-email"></i>
-                      <a href="mailto:info@azino.com">info@azino.com</a>
+                      <a href="mailto:gilsa33@yahoo.com">gilsa33@yahoo.com</a>
                     </li>
                     <li>
                       <i className="azino-icon-pin"></i>
-                      88 top broklyn street road new york, USA
+                      <a href="https://www.google.com/maps/place/GS+Auto+Service/@39.7097463,-105.0581813,17z/data=!3m1!4b1!4m5!3m4!1s0x876b80c078d84645:0xae559ac3652a7829!8m2!3d39.7097463!4d-105.0559926">
+                        {" "}
+                        5420 W Alameda Ave, Lakewood, CO 80226
+                      </a>
                     </li>
                   </ul>
                 </div>
