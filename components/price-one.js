@@ -1,57 +1,45 @@
 import React from "react";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
-import heart from "../public/assets/images/shapes/heart-2-1.png";
-import priceBox from "../public/assets/images/resources/price-box-1-1.jpg";
+import heart from "../public/assets/img/GSLogoLight.png";
+import priceBox from "../public/assets/img/services/GS_Auto_Service_Lakewood_CO_Car_Inspection_200x197.png";
 const PRICE_ONE_DATA = [
   {
-    title: "Silver Package",
-    icon: "fa fa-paper-plane",
+    title: "Regular & Synthetic Oil Changes",
+    icon: "fa fa-car",
     extraClassName: "",
-    price: "$30.00",
+    price: "Speedy Service",
     options: [
       {
-        text: "Free text goes here"
+        text: "Cars, Trucks, Suv's, RV's & Boats",
       },
       {
-        text: "Write here anything"
-      },
-      {
-        text: "Above mention it"
-      },
-      {
-        text: "Say once again"
+        text: "We make sure the lifeblood of your vehicle is always fresh",
       }
     ],
     button: {
-      link: "#",
-      label: "Choose Plan"
-    }
+      link: "tel:303-525-4209",
+      label: "Call Now",
+    },
   },
   {
-    title: "Gold Package",
-    icon: "fa fa-plane",
+    title: "Brakes Services",
+    icon: "fa fa-car",
     extraClassName: "gold",
-    price: "$60.00",
+    price: "Quality Parts",
     options: [
       {
-        text: "Free text goes here"
+        text: "Safety is always number one priority",
       },
       {
-        text: "Write here anything"
-      },
-      {
-        text: "Above mention it"
-      },
-      {
-        text: "Say once again"
+        text: "If you hear a squeaky break, its likely time for replacement",
       }
     ],
     button: {
-      link: "#",
-      label: "Choose Plan"
-    }
-  }
+      link: "tel:303-525-4209",
+      label: "Call Now",
+    },
+  },
 ];
 const PriceOne = () => {
   return (
@@ -61,29 +49,28 @@ const PriceOne = () => {
           <Col xl={5}>
             <div className="price-one__main">
               <div className="block-title">
-                <p>
-                  <img src={heart} width="15" alt="" />
-                  Popular Causes
+                <p className="text-white">
+                  <img src={heart} width="85" alt="" />
+                  Popular Services
                 </p>
-                <h3>
-                  Donate to charity causes <br /> around the world.
-                </h3>
+                <h3>Prepare your vehicle for the Summer</h3>
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed
-                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                aliquam erat volutpat.{" "}
+                Depending on how often you drive, you may want to look into
+                regular vehicle maintenance to ensure proper vehicle health. Our
+                professionals are ready to make sure your car, truck, RV or Boat
+                are always ready.
               </p>
               <div className="price-one__image-box">
                 <img src={priceBox} alt="" />
                 <div className="price-one__image-box-content">
                   <h3>
-                    <i className="fa fa-check"></i> Fundraising Platform
+                    <i className="fa fa-check"></i> A/C Maintenance Check
                   </h3>
                   <p>
-                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                    Aenean sollicitudin, lorem is simply free text quis
-                    bibendum.
+                    Is your A/C starting to blow hot air or just not cutting it
+                    overall? You may need A/C Maintenance before the coming
+                    summer.
                   </p>
                 </div>
               </div>

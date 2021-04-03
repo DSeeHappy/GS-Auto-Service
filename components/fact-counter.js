@@ -6,24 +6,24 @@ import { Container, Row, Col } from "react-bootstrap";
 const FACT_COUNTER_DATA = [
   {
     count: 8860,
-    text: "Fund Raised"
+    text: "Oil Changes",
   },
   {
-    count: 456,
-    text: "Fund Raised"
+    count: 4256,
+    text: "Brake Replacement",
   },
   {
     count: 6208,
-    text: "Fund Raised"
+    text: "Front End & Suspension",
   },
   {
-    count: 960,
-    text: "Fund Raised"
-  }
+    count: 2960,
+    text: "A/C Maintenance",
+  },
 ];
 const FactCounter = () => {
   const [counter, setCounter] = useState({
-    startCounter: false
+    startCounter: false,
   });
 
   const onVisibilityChange = (isVisible) => {
