@@ -61,8 +61,8 @@ const FaqOne = () => {
                   <Accordion.Collapse eventKey="0">
                     <p>
                       It is important to regularly change your oil to protect
-                      your engine and it helps it last longer to keep your
-                      vehicle healthy. Without regular oil chnages, you can
+                      your engine, helping it last longer keeping
+                      vehicle healthy. Without regular oil changes, you can
                       leave deposits, sludge and buildup which over time can
                       cause an early end to your engine.
                     </p>
@@ -88,8 +88,7 @@ const FaqOne = () => {
                   </ContextAwareToggle>
                   <Accordion.Collapse eventKey="2">
                     <p>
-                      Modern vehicles can last a long time without replacing
-                      spark plugs, old spark plugs in and of themselves wouldn't
+                      Old spark plugs in and of themselves wouldn't
                       mess up your car. However old spark plugs may not be
                       functioning correctly which means they may not be getting
                       proper combustion in the engine. Over time this can cause

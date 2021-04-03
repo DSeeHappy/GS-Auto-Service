@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import about1 from "../../public/assets/images/shapes/about-bag-1-1.png";
-import about2 from "../../public/assets/images/resources/about-1-1.jpg";
-import about3 from "../../public/assets/images/resources/about-1-2.jpg";
-import heart from "../../public/assets/images/shapes/heart-2-1.png";
+import about1 from "../../public/assets/img/shapes/carrepairicon.png";
+import about2 from "../../public/assets/img/resources/downtownskyline.png";
+import about3 from "../../public/assets/img/resources/denverskyline.png";
+import heart from "../../public/assets/img/GSLogo.png";
 
 const AboutOne = () => {
   return (
@@ -11,7 +11,7 @@ const AboutOne = () => {
       <Container>
         <Row>
           <div className="about-one__award">
-            <img src={about1} alt="" />
+            <img src={about1} alt="" className="img-fluid" />
           </div>
           <Col lg={6}>
             <img src={about2} alt="" className="img-fluid" />
@@ -27,24 +27,29 @@ const AboutOne = () => {
             <Col md={12} lg={4}>
               <div className="block-title">
                 <p>
-                  <img src={heart} width="15" alt="" />
-                  Make a Difference
+                  <img src={heart} width="85" alt="" />
+                  Gilberto Sanchez
                 </p>
-                <h3>Let’s help them together.</h3>
+                <h3>
+                  With over 20 years of experience. <br /> You know you are in
+                  good hands
+                </h3>
               </div>
             </Col>
             <Col md={12} lg={4}>
               <p className="team-about__top-text">
-                Tincidunt elit magnis nulla facilisis sagittis is maecenas.
-                Sapien nunced amet ultrices, dolores sit ipsum velit purus
-                aliquet, massa fringilla leo orci ipsum dolor sit.
+                2018 was the year Gilberto felt it was time to open GS Auto
+                Service. Having worked at many locations around Denver. <hr />
+                GS Auto will be the repair shop you go to when you need results.
               </p>
             </Col>
             <Col md={12} lg={4}>
               <p className="team-about__top-text">
-                Sapien nunced amet ultrices, dolores sit ipsum velit purus
-                aliquet, massa fringilla leo orci. Lorem ipsum dolor sit amet.
-                consectetur adipisi cing elit dolo.
+                With a breadth of experience, our technicians will make you feel
+                at ease. <hr />
+                From Pre-Purchase Inspections, Pre-Road Trip Inspections,
+                Emissions Testing to Check Engine Lights. We can make sure your
+                vehicle is always healthy.
               </p>
             </Col>
           </Row>

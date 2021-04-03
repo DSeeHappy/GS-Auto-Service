@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import pageHeaderBg from "../public/assets/images/backgrounds/page-header-1-1.jpg";
+import pageHeaderBg from "../public/assets/img/backgrounds/caronlift.png";
 
 const PageHeader = ({ title, crumbTitle }) => {
   return (

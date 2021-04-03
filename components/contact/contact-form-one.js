@@ -14,9 +14,8 @@ const ContactFormOne = () => {
                 tagLine="Contact With Us"
               />
               <p className="block-text mb-30 pr-10">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Have you done google research which works all the
-                time.{" "}
+                We're here to help every step of the way when it comes to making
+                sure your vehicle is working like new
               </p>
               <div className="footer-social black-hover">
                 <a href="#" aria-label="twitter">
@@ -35,7 +34,22 @@ const ContactFormOne = () => {
             </div>
           </Col>
           <Col lg={7}>
-            <form className="contact-form-validated contact-page__form form-one mb-40">
+            <form
+              data-netlify="true"
+              name="Contact Us v0.01"
+              method="POST"
+              data-netlify-honeypot="bot-field"
+              onSubmit="submit"
+              className="contact-form-validated contact-page__form form-one mb-40"
+            >
+              <div hidden>
+                <input name="bot-field" />
+              </div>
+              <input
+                type="hidden"
+                name="form-name"
+                value="Contact Us v0.01"
+              />
               <div className="form-group">
                 <div className="form-control">
                   <label htmlFor="name" className="sr-only">
