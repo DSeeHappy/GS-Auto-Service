@@ -18,6 +18,8 @@ import BlogHomeTwo from "../components/blog/blog-home-two";
 import EventHomeTwo from "../components/event/event-home-two";
 import Footer from "../components/footer";
 import Financing from "../components/call-to-action/call-to-action-two";
+import GoogleMap from "../components/google-map";
+import CallToAction from "../components/call-to-action/call-to-action";
 
 const HomeTwo = () => {
   return (
@@ -35,10 +37,11 @@ const HomeTwo = () => {
       <TestimonialsOne />
       <FactCounter />
       <PriceOne />
-      <GalleryHomeTwo />
-      <EventHomeTwo />
-      <BlogHomeTwo />
       <BrandCarousel extraClass="client-carousel__has-border-top" />
+      <CallToAction />
+
+      <GoogleMap extraClass="home" />
+
       <Footer />
     </Layout>
   );
