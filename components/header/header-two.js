@@ -3,7 +3,6 @@ import Link from "next/link";
 import { Container } from "react-bootstrap";
 import NavLinks from "./nav-links";
 
-import flag1 from "../../public/assets/images/resources/flag-1-1.jpg";
 import logoDark from "../../public/assets/img/GSLogo.png";
 
 const HeaderTwo = () => {
@@ -98,21 +97,23 @@ const HeaderTwo = () => {
               </div>
             </div>
             <div className="header-info__box">
-              <i className="azino-icon-address"></i>
+                <i href="https://www.google.com/maps/place/GS+Auto+Service/@39.7097463,-105.0581813,17z/data=!3m1!4b1!4m5!3m4!1s0x876b80c078d84645:0xae559ac3652a7829!8m2!3d39.7097463!4d-105.0559926" className="azino-icon-address"></i>
+              <a href="https://www.google.com/maps/place/GS+Auto+Service/@39.7097463,-105.0581813,17z/data=!3m1!4b1!4m5!3m4!1s0x876b80c078d84645:0xae559ac3652a7829!8m2!3d39.7097463!4d-105.0559926">
 
-              <div className="main-header__info">
-                <ul className="list-unstyled main-header__info-list">
-                  <li>
-                    <a>Monday-Friday: 8AM - 6PM</a>
-                  </li>
-                  <li>
-                    <a>Saturday: 8AM - 2PM</a>
-                  </li>
-                  <li>
-                    <a>Sunday: CLOSED</a>
-                  </li>
-                </ul>
-              </div>
+                <div className="main-header__info">
+                  <ul className="list-unstyled main-header__info-list">
+                    <li>
+                      <a>Monday-Friday: 8AM - 6PM</a>
+                    </li>
+                    <li>
+                      <a>Saturday: 8AM - 2PM</a>
+                    </li>
+                    <li>
+                      <a>Sunday: CLOSED</a>
+                    </li>
+                  </ul>
+                </div>
+              </a>
             </div>
           </div>
         </Container>
@@ -120,9 +121,12 @@ const HeaderTwo = () => {
       <nav className="main-menu">
         <Container>
           <NavLinks extraClassName="dynamic-radius" />
-          <Link href="/contact">
-            <a className="thm-btn dynamic-radius">Find on Maps</a>
-          </Link>
+          <a
+            href="https://g.page/gs-auto-service-lakewood/review?rc"
+            className="thm-btn dynamic-radius"
+          >
+            Review us on Google
+          </a>
         </Container>
       </nav>
     </div>

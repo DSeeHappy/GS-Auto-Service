@@ -1746,15 +1746,15 @@
 :root {
   --thm-font: "Jost", sans-serif;
   --heading-font: "Libre Baskerville", serif;
-  --thm-color: #7e7e7e;
+  --thm-color: #f9f9f8;
   --thm-color-rgb: 126, 126, 126;
-  --thm-base: #fcad30;
+  --thm-base: #1e455b;
   --thm-base-rgb: 252, 173, 48;
   --thm-primary: #4ecd99;
   --thm-primary-rgb: 78, 205, 153;
-  --thm-secondary: #ed4b4b;
+  --thm-secondary: #6388a8;
   --thm-secondary-rgb: 237, 75, 75;
-  --thm-special: #5366c2;
+  --thm-special: #192033;
   --thm-special-rgb: 83, 102, 194;
   --thm-black: #242323;
   --thm-black-rgb: 36, 35, 35;
@@ -7154,7 +7154,7 @@ h6 {
 .service-two {
   padding-bottom: 120px;
   background-color: #f1f1f1;
-  background-image: url(../images/shapes/hand-bg-1-1.png);
+  background-image: url(../img/backgrounds/GS_Auto_Service_Lakewood_CO_Old_New_Brake_Rotors_Top.png);
   background-repeat: repeat-x;
   background-position: bottom center;
   -webkit-box-shadow: inset 0px -10px 60px 0px rgba(0, 0, 0, 0.05);

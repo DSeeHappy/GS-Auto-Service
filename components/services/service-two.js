@@ -2,32 +2,34 @@ import React from "react";
 import Link from "next/link";
 import { Container } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
-import image1 from "../../public/assets/images/resources/service-1-1.jpg";
-import image2 from "../../public/assets/images/resources/service-1-2.jpg";
-import image3 from "../../public/assets/images/resources/service-1-3.jpg";
-import heart from "../../public/assets/images/shapes/heart-2-2.png";
+import image1 from "../../public/assets/img/services/GS_Auto_Service_Lakewood_CO_Laptop_On_Car.png";
+import image2 from "../../public/assets/img/services/GS_Auto_Service_Lakewood_CO_AC_Car_Engine_Oil_370x461.png";
+import image3 from "../../public/assets/img/services/GS_Auto_Service_Lakewood_CO_AC_Car_Brown_370x461.png";
+
 const SERVICE_TWO_DATA = [
   {
     extraClassName: "background-primary",
     image: image1,
-    title: "More charity better lives",
-    text: "Start Donating",
-    link: "#"
+    title: "All Makes & Models ",
+    text: "We repair all Makes & Models as well as RV's and Boats",
+    link: "#",
   },
   {
     extraClassName: "background-secondary",
     image: image2,
-    title: "Join our volunteers",
-    text: "Let’s Join",
-    link: "#"
+    title: "Repairs & Maintenance",
+    text:
+      "From Basic Maintenance to Major Overhauls, your vehicle will feel like new",
+    link: "#",
   },
   {
     extraClassName: "background-base",
     image: image3,
-    title: "Poor childs education",
-    text: "Quick Funding",
-    link: "#"
-  }
+    title: "A/C Services",
+    text:
+      "We Provide A/C Repair & Maintenance to make sure your vehicle is always ready for the Colorado Heat",
+    link: "#",
+  },
 ];
 const ServiceTwo = () => {
   const sliderOptions = {
@@ -36,33 +38,33 @@ const ServiceTwo = () => {
     breakpoints: {
       0: {
         slidesPerView: 1,
-        spaceBetween: 0
+        spaceBetween: 0,
       },
       375: {
         slidesPerView: 1,
-        spaceBetween: 30
+        spaceBetween: 30,
       },
       575: {
         slidesPerView: 1,
-        spaceBetween: 30
+        spaceBetween: 30,
       },
       768: {
         slidesPerView: 1,
-        spaceBetween: 30
+        spaceBetween: 30,
       },
       991: {
         slidesPerView: 2,
-        spaceBetween: 30
+        spaceBetween: 30,
       },
       1199: {
         slidesPerView: 2,
-        spaceBetween: 30
+        spaceBetween: 30,
       },
       1200: {
         slidesPerView: 3,
-        spaceBetween: 30
-      }
-    }
+        spaceBetween: 30,
+      },
+    },
   };
   return (
     <section className="service-two">
@@ -76,7 +78,7 @@ const ServiceTwo = () => {
                   style={{ backgroundImage: `url(${image})` }}
                 >
                   <div className="service-two__box-inner">
-                    <img src={heart} width="15" alt="" />
+                    <i class="fas fa-car"></i>
                     <p>{text}</p>
                     <h3>
                       <Link href={link}>
