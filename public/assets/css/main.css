@@ -5097,7 +5097,7 @@ h6 {
 }
 
 .faq-one #accordion {
-  background-color: #fff;
+  background-color: var(--thm-primary);
   border-radius: 15px;
   -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
@@ -5106,6 +5106,8 @@ h6 {
 
 .faq-one #accordion li {
   padding: 25px 0;
+  background-color: var(--thm-primary);
+
 }
 
 .faq-one #accordion li + li {
@@ -5114,7 +5116,7 @@ h6 {
 
 .faq-one #accordion .para-title {
   position: relative;
-  color: var(--thm-black);
+  color: var(--thm-color);
   font-size: 16px;
   font-weight: bold;
   line-height: 1.3;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import causeImage from "../public/assets/images/resources/featured-cause.jpg";
+import causeImage from "../public/assets/img/services/GS_Auto_Service_Lakewood_CO_Oil_Change_Car_340x290.png"
 const FeaturedCause = () => {
   return (
     <section className="featured-cause">
@@ -12,27 +12,21 @@ const FeaturedCause = () => {
             </Col>
             <Col lg={8} className=" d-flex">
               <div className="my-auto">
-                <h3>Urgent help needed now </h3>
+                <h3>From Basic Maintenance to Major Repairs</h3>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                  Our expert technicians stay informed of all new technologies
+                  and innovations.
+                </p>
+                <hr />
+                <p>
+                  We use state-of-the-art diagnostic equipment to make sure all
+                  vehicle diagnoses are accurate.
                 </p>
                 <div className="cause-card__top">
-                  <div className="cause-card__progress">
-                    <span style={{ width: `85%` }} className=" cardProgress">
-                      <b>
-                        <i>85</i>%
-                      </b>
-                    </span>
-                  </div>
-                  <div className="cause-card__goals">
-                    <p>
-                      <strong>Raised:</strong> $25,270
-                    </p>
-                    <p>
-                      <strong>Goal:</strong> $30,000
-                    </p>
-                  </div>
+                  <p>
+                    If you’re searching for an auto repair team that you can
+                    trust, look no further than GS Auto Service.
+                  </p>
                 </div>
               </div>
             </Col>
