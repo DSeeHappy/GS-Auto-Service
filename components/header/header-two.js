@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 import NavLinks from "./nav-links";
 
 import flag1 from "../../public/assets/images/resources/flag-1-1.jpg";
-import logoDark from "../../public/assets/images/logo-dark.png";
+import logoDark from "../../public/assets/img/GSLogo.png";
 
 const HeaderTwo = () => {
   useEffect(() => {
@@ -69,7 +69,7 @@ const HeaderTwo = () => {
       </div>
       <div className="header-upper">
         <Container>
-          <div className="logo-box">
+          <div className="logo-box mr-5">
             <Link href="/">
               <a aria-label="logo image">
                 <img src={logoDark} width="101" alt="" />
@@ -99,10 +99,8 @@ const HeaderTwo = () => {
             </div>
             <div className="header-info__box">
               <i className="azino-icon-address"></i>
-             
 
               <div className="main-header__info">
-
                 <ul className="list-unstyled main-header__info-list">
                   <li>
                     <a>Monday-Friday: 8AM - 6PM</a>
@@ -123,7 +121,7 @@ const HeaderTwo = () => {
         <Container>
           <NavLinks extraClassName="dynamic-radius" />
           <Link href="/contact">
-            <a className="thm-btn dynamic-radius"></a>
+            <a className="thm-btn dynamic-radius">Find on Maps</a>
           </Link>
         </Container>
       </nav>
