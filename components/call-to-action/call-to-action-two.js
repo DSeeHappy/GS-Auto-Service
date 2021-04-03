@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import bgImage from "../../public/assets/img/backgrounds/drivingtomountains.png";
-import HeartImage from "../../public/assets/images/shapes/heart-2-1.png";
+import HeartImage from "../../public/assets/img/GSLogoLight.png";
 
 const Financing = () => {
   return (
@@ -12,12 +12,12 @@ const Financing = () => {
         style={{ backgroundImage: `url(${bgImage})` }}
       ></div>
       <Container className="container pt-80 pb-80">
-        <i className="azino-icon-charity call-to-action-two__icon"></i>
+        <i className="fa fa-car call-to-action-two__icon"></i>
         <Row className=" align-items-center">
           <Col lg={7}>
             <div className="block-title">
               <p>
-                <img src={HeartImage} width="15" alt="" />
+                <img src={HeartImage} width="85" alt="" />
                 Get Accessible Financing With Snap Financing
               </p>
               <h3>Financing in a Snap!</h3>

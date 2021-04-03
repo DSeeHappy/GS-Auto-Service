@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import heart from "../../public/assets/images/shapes/heart-2-1.png";
+import heart from "../../public/assets/img/GSLogo.png";
 
 const VolunteerForm = () => {
   return (
@@ -11,27 +11,38 @@ const VolunteerForm = () => {
             <div className="become-volunteer__content mb-40">
               <div className="block-title">
                 <p>
-                  <img src={heart} width="15" alt="" />
+                  <img src={heart} width="85" alt="" />
                   Join Us Now
                 </p>
                 <h3>
-                  Register yourself as <br /> our volunteer.
+                  Register yourself as <br /> our Fleet Member.
                 </h3>
               </div>
               <p className="block-text mb-40 pr-10">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Have you done google research which works all the
-                time.{" "}
+                We provide fleet discounts and fleet billing management.All our
+                fleet members can expect prompt communication and service.
               </p>
               <ul className="list-unstyled ul-list-one">
-                <li>Nsectetur cing elit.</li>
-                <li>Suspe ndisse suscipit sagittis leo.</li>
-                <li>Entum estibulum dignissim posuere.</li>
+                <li>Quality Services.</li>
+                <li>Speedy repair.</li>
+                <li>Quality Parts</li>
               </ul>
             </div>
           </Col>
           <Col lg={7}>
-            <form className="contact-form-validated become-volunteer__form form-one mb-40">
+            <form   data-netlify="true"
+              name="Fleet Services v0.01"
+              method="POST"
+              data-netlify-honeypot="bot-field"
+              onSubmit="submit"  className="contact-form-validated become-volunteer__form form-one mb-40">
+            <div hidden>
+                <input name="bot-field" />
+              </div>
+              <input
+                type="hidden"
+                name="form-name"
+                value="Fleet Services v0.01"
+              />
               <div className="form-group">
                 <div className="form-control">
                   <label htmlFor="name" className="sr-only">

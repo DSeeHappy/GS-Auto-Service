@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Accordion, Container, Row, Col, Card } from "react-bootstrap";
 import { useAccordionToggle } from "react-bootstrap/AccordionToggle";
 import AccordionContext from "react-bootstrap/AccordionContext";
-import heart from "../public/assets/images/shapes/heart-2-1.png";
+import heart from "../public/assets/img/GSLogo.png";
 import heart1 from "../public/assets/images/shapes/about-count-heart-1-1.png";
 import faqImage from "../public/assets/img/services/GS_Auto_Service_Lakewood_CO_Engine_Check_962x644.png";
 
@@ -42,7 +42,7 @@ const FaqOne = () => {
             <div className="faq-one__content">
               <div className="block-title">
                 <p>
-                  <img src={heart} width="15" alt="" />
+                  <img src={heart} width="85" alt="" />
                   Quality Vehicle Care
                 </p>
                 <h3>Frequently Asked Questions</h3>
@@ -61,10 +61,10 @@ const FaqOne = () => {
                   <Accordion.Collapse eventKey="0">
                     <p>
                       It is important to regularly change your oil to protect
-                      your engine, helping it last longer keeping
-                      vehicle healthy. Without regular oil changes, you can
-                      leave deposits, sludge and buildup which over time can
-                      cause an early end to your engine.
+                      your engine, helping it last longer keeping vehicle
+                      healthy. Without regular oil changes, you can leave
+                      deposits, sludge and buildup which over time can cause an
+                      early end to your engine.
                     </p>
                   </Accordion.Collapse>
                 </Card>
@@ -88,13 +88,12 @@ const FaqOne = () => {
                   </ContextAwareToggle>
                   <Accordion.Collapse eventKey="2">
                     <p>
-                      Old spark plugs in and of themselves wouldn't
-                      mess up your car. However old spark plugs may not be
-                      functioning correctly which means they may not be getting
-                      proper combustion in the engine. Over time this can cause
-                      other things on the engine to not run properly. Always
-                      have your vehicle inspected to ensure proper
-                      functionality.
+                      Old spark plugs in and of themselves wouldn't mess up your
+                      car. However old spark plugs may not be functioning
+                      correctly which means they may not be getting proper
+                      combustion in the engine. Over time this can cause other
+                      things on the engine to not run properly. Always have your
+                      vehicle inspected to ensure proper functionality.
                     </p>
                   </Accordion.Collapse>
                 </Card>
@@ -105,7 +104,10 @@ const FaqOne = () => {
             <div className="about-counter__image clearfix">
               <div className="about-counter__image-content">
                 <img src={heart1} alt="" />
-                <p>Regular Maintenace is essential to your vehicle's overall health</p>
+                <p>
+                  Regular Maintenace is essential to your vehicle's overall
+                  health
+                </p>
               </div>
               <img src={faqImage} alt="" className="float-left" />
             </div>

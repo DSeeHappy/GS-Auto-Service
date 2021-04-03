@@ -23,9 +23,9 @@ const Footer = () => {
                   </a>
                 </Link>
                 <p>
-                  At GS Auto Service we perform your auto repairs and maintenance services right
-                  the first time because we know what we’re doing with every
-                  service we provide.
+                  At GS Auto Service we perform your auto repairs and
+                  maintenance services right the first time because we know what
+                  we’re doing with every service we provide.
                 </p>
                 <ul className="list-unstyled footer-widget__contact">
                   <li>
@@ -76,19 +76,32 @@ const Footer = () => {
                       <a>Contact</a>
                     </Link>
                   </li>
-                 
                 </ul>
               </div>
             </Col>
-           
+
             <Col lg={4} md={6} sm={12}>
               <div className="footer-widget mb-40 footer-widget__newsletter">
                 <h3 className="footer-widget__title">Newletter</h3>
-                <p>Signup now to get the latest news &amp; promotions from us</p>
+                <p>
+                  Signup now to get the latest news &amp; promotions from us
+                </p>
                 <form
-                  data-url="https://xyz.us18.list-manage.com/subscribe/post?u=20e91746ef818cd941998c598&id=cc0ee8140e"
+                  data-netlify="true"
+                  name="Newsletter v0.01"
+                  method="POST"
+                  data-netlify-honeypot="bot-field"
+                  onSubmit="submit"
                   className="footer-widget__newsletter-form mc-form"
                 >
+                  <div hidden>
+                    <input name="bot-field" />
+                  </div>
+                  <input
+                    type="hidden"
+                    name="form-name"
+                    value="Newsletter v0.01"
+                  />
                   <label htmlFor="mc-email" className="sr-only">
                     Email Address
                   </label>
@@ -121,7 +134,9 @@ const Footer = () => {
           >
             <i className="far fa-angle-up"></i>
           </ScrollLink>
-          <p>© Copyright 2021 <a href="https://dseehappy.com">DSeeHappy</a></p>
+          <p>
+            © Copyright 2021 <a href="https://dseehappy.com">DSeeHappy</a>
+          </p>
           <div className="footer-social">
             <a href="#" aria-label="twitter">
               <i className="fab fa-twitter"></i>
