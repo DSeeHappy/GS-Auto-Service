@@ -102,19 +102,25 @@ const HeaderTwo = () => {
                 className="azino-icon-address"
               ></i>
               <a href="https://www.google.com/maps/place/GS+Auto+Service/@39.7097463,-105.0581813,17z/data=!3m1!4b1!4m5!3m4!1s0x876b80c078d84645:0xae559ac3652a7829!8m2!3d39.7097463!4d-105.0559926">
-                <div className="main-header__info">
-                  <ul className="list-unstyled main-header__info-list">
-                    <li>
-                      <a>Monday-Friday: 8AM - 6PM</a>
-                    </li>
-                    <li>
-                      <a>Saturday: 8AM - 2PM</a>
-                    </li>
-                    <li>
-                      <a>Sunday: CLOSED</a>
-                    </li>
-                  </ul>
-                </div>
+               <p>Find us on Google</p>
+                <ul className="list-unstyled main-header__info-list">
+                  <li>
+                    <a>
+                      Monday-Friday: <br /> 8AM - 6PM
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      Saturday:
+                      <br /> 8AM - 2PM
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      Sunday: <br /> CLOSED
+                    </a>
+                  </li>
+                </ul>
               </a>
             </div>
           </div>

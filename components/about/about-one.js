@@ -37,14 +37,14 @@ const AboutOne = () => {
               </div>
             </Col>
             <Col md={12} lg={4}>
-              <p className="team-about__top-text">
+              <p className="team-about__top-text text-dark">
                 2018 was the year Gilberto felt it was time to open GS Auto
                 Service. Having worked at many locations around Denver. <hr />
                 GS Auto will be the repair shop you go to when you need results.
               </p>
             </Col>
             <Col md={12} lg={4}>
-              <p className="team-about__top-text">
+              <p className="team-about__top-text text-dark">
                 With a breadth of experience, our technicians will make you feel
                 at ease. <hr />
                 From Pre-Purchase Inspections, Pre-Road Trip Inspections,

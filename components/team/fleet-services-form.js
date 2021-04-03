@@ -78,14 +78,14 @@ const VolunteerForm = () => {
                   />
                 </div>
                 <div className="form-control">
-                  <label htmlFor="date-of-birth" className="sr-only">
-                    date of birth
+                  <label htmlFor="company" className="sr-only">
+                    company
                   </label>
                   <input
                     type="text"
                     name="date"
-                    id="date-of-birth"
-                    placeholder="Date of Birth"
+                    id="company"
+                    placeholder="Company"
                   />
                 </div>
                 <div className="form-control">

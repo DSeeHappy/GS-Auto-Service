@@ -2,8 +2,7 @@ import React from "react";
 import Link from "next/link";
 import NavLinks from "./header/nav-links";
 
-import logoLight from "../public/assets/images/logo-light.png";
-import flag1 from "../public/assets/images/resources/flag-1-1.jpg";
+import logoLight from "../public/assets/img/GSLogoLight.png";
 
 const MobileNav = () => {
   return (
@@ -28,25 +27,20 @@ const MobileNav = () => {
         <ul className="mobile-nav__contact list-unstyled">
           <li>
             <i className="azino-icon-email"></i>
-            <a href="mailto:needhelp@azino.com">needhelp@azino.com</a>
+            <a href="mailto:gilsa33@yahoo.com">gilsa33@yahoo.com</a>
           </li>
           <li>
             <i className="azino-icon-telephone"></i>
-            <a href="tel:666-888-0000">666 888 0000</a>
+            <a href="tel:303-525-4209">(303) 525-4209</a>
+          </li>
+          <li>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <a href="https://www.google.com/maps/place/GS+Auto+Service/@39.7097504,-105.0581813,17z/data=!3m1!4b1!4m5!3m4!1s0x876b80c078d84645:0xae559ac3652a7829!8m2!3d39.7097463!4d-105.0559926">
+              5420 W Alameda Ave,<br/> Lakewood, CO 80226
+            </a>
           </li>
         </ul>
         <div className="mobile-nav__top">
-          <div className="mobile-nav__language">
-            <img src={flag1} alt="" />
-            <label className="sr-only" htmlFor="language-select">
-              select language
-            </label>
-            <select className="selectpicker" id="language-select">
-              <option value="english">English</option>
-              <option value="arabic">Arabic</option>
-            </select>
-            <i className="fa fa-caret-down select-icon"></i>
-          </div>
           <div className="mobile-nav__social">
             <a href="#" aria-label="twitter">
               <i className="fab fa-twitter"></i>

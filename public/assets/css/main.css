@@ -1006,7 +1006,7 @@
   line-height: 34px;
   font-weight: 500;
   margin-top: 25px;
-  
+
 }
 
 @media (min-width: 992px) {
@@ -5688,7 +5688,7 @@ h6 {
   transform: translate(-50%, -50%);
   width: 150px;
   height: 150px;
-  background-color: var(--thm-secondary);
+  background-color: var(--thm-primary);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
