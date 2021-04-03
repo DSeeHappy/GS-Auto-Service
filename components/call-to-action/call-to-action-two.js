@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
-import bgImage from "../../public/assets/images/backgrounds/page-header-1-1.jpg";
+import bgImage from "../../public/assets/img/backgrounds/drivingtomountains.png";
 import HeartImage from "../../public/assets/images/shapes/heart-2-1.png";
 
-const CallToActionTwo = () => {
+const Financing = () => {
   return (
     <section className="call-to-action-two">
       <div
@@ -18,11 +18,11 @@ const CallToActionTwo = () => {
             <div className="block-title">
               <p>
                 <img src={HeartImage} width="15" alt="" />
-                Help Other People
+                Get Accessible Financing With Snap Financing
               </p>
-              <h3>
-                Our fingerprints on <br /> the lives we touch <br /> never fade.
-              </h3>
+              <h3>Financing in a Snap!</h3>
+              <hr />
+              <h3> High Approval Rates &amp; Amounts</h3>
             </div>
           </Col>
           <Col
@@ -30,9 +30,40 @@ const CallToActionTwo = () => {
             className=" d-flex justify-content-start justify-content-lg-end"
           >
             <div className="btn-wrap">
-              <Link href="#">
-                <a className="scroll-to-target thm-btn">Start Donating</a>
-              </Link>
+              <a
+                href="https://snapfinance.com/snap-merchants/gs-auto-service-and-tires-denver/490233871"
+                className="scroll-to-target thm-btn"
+              >
+                Apply Now
+              </a>
+            </div>
+          </Col>
+          <Col>
+            <div className="donate-options__icon-wrap">
+              <div className="donate-options__icon">
+                <i class="far fa-thumbs-up"></i>{" "}
+                <h3>
+                  <a href="https://snapfinance.com/snap-merchants/gs-auto-service-and-tires-denver/490233871">
+                    Approval
+                  </a>
+                </h3>
+              </div>
+              <div className="donate-options__icon">
+                <i class="fas fa-money-bill-wave-alt"></i>{" "}
+                <h3>
+                  <a href="https://snapfinance.com/snap-merchants/gs-auto-service-and-tires-denver/490233871">
+                    Access
+                  </a>
+                </h3>
+              </div>
+              <div className="donate-options__icon">
+                <i class="fas fa-tools"></i>{" "}
+                <h3>
+                  <a href="https://snapfinance.com/snap-merchants/gs-auto-service-and-tires-denver/490233871">
+                    Repairs
+                  </a>
+                </h3>
+              </div>
             </div>
           </Col>
         </Row>
@@ -41,4 +72,4 @@ const CallToActionTwo = () => {
   );
 };
 
-export default CallToActionTwo;
+export default Financing;

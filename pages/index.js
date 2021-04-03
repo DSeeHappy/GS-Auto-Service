@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import HeaderTwo from "../components/header/header-two";
 import StickyHeader from "../components/header/sticky-header";
 import MainSliderTwo from "../components/slider/main-slider-2";
-import AboutTwo from "../components/about/about-two";
+import AboutCounter from "../components/about/about-counter";
 import VideoCard from "../components/videos/video-card";
 import FeaturedCause from "../components/featured-cause";
 import ServiceTwo from "../components/services/service-two";
@@ -17,6 +17,7 @@ import GalleryHomeTwo from "../components/gallery/gallery-home-two";
 import BlogHomeTwo from "../components/blog/blog-home-two";
 import EventHomeTwo from "../components/event/event-home-two";
 import Footer from "../components/footer";
+import Financing from "../components/call-to-action/call-to-action-two";
 
 const HomeTwo = () => {
   return (
@@ -25,9 +26,10 @@ const HomeTwo = () => {
       <StickyHeader extraClassName="stricky-header-two" />
       <MainSliderTwo />
       <ServiceTwo />
-      <AboutTwo />
-      <VideoCard />
+      <AboutCounter />
+      <Financing/>
       <CausesHome />
+      <VideoCard />
       <FeaturedCause />
       <FaqOne />
       <TestimonialsOne />

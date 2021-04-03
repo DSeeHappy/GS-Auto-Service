@@ -97,9 +97,11 @@ const HeaderTwo = () => {
               </div>
             </div>
             <div className="header-info__box">
-                <i href="https://www.google.com/maps/place/GS+Auto+Service/@39.7097463,-105.0581813,17z/data=!3m1!4b1!4m5!3m4!1s0x876b80c078d84645:0xae559ac3652a7829!8m2!3d39.7097463!4d-105.0559926" className="azino-icon-address"></i>
+              <i
+                href="https://www.google.com/maps/place/GS+Auto+Service/@39.7097463,-105.0581813,17z/data=!3m1!4b1!4m5!3m4!1s0x876b80c078d84645:0xae559ac3652a7829!8m2!3d39.7097463!4d-105.0559926"
+                className="azino-icon-address"
+              ></i>
               <a href="https://www.google.com/maps/place/GS+Auto+Service/@39.7097463,-105.0581813,17z/data=!3m1!4b1!4m5!3m4!1s0x876b80c078d84645:0xae559ac3652a7829!8m2!3d39.7097463!4d-105.0559926">
-
                 <div className="main-header__info">
                   <ul className="list-unstyled main-header__info-list">
                     <li>

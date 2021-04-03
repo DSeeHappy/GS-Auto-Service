@@ -284,7 +284,7 @@
 }
 
 .video-card {
-  background-color: var(--thm-black);
+  background-color: var(--thm-primary);
   position: relative;
 }
 
@@ -6500,7 +6500,7 @@ h6 {
 }
 
 .call-to-action-two {
-  background-color: var(--thm-black);
+  background-color: var(--thm-primary);
   position: relative;
 }
 
@@ -6571,7 +6571,7 @@ h6 {
 }
 
 .call-to-action-two .block-title p {
-  color: var(--thm-base);
+  color: var(--thm-color);
 }
 
 .call-to-action-two .block-title h3 {

@@ -22,40 +22,45 @@ const AboutTwo = () => {
             <div className="about-two__content">
               <div className="block-title">
                 <p>
-                  <img src={heart} width="15" alt="" /> About Azino Platform
+                  <img src={heart} width="15" alt="" /> Your Car Will Love Us
                 </p>
-                <h3>Welcome to non-profit charity organization.</h3>
+                <h3>Every vehicle comes out better than it came in</h3>
               </div>
               <p className="mb-40 pr-10">
-                Lorem ipsum dolor sit amet, consectetur notted adipisicing elit
-                sed do eiusmod tempor incididunt simply free ut labore et dolore
-                magna aliqua simhy adndnh qkhhn.
+                Save time and money with us as we cut out the need for return
+                visits.
+              </p>
+              <hr />
+              <p className="mb-40 pr-10">
+                We work on all makes and models of vehicles, so you can rest
+                assured that our knowledgeable techs are prepared to handle your
+                vehicle.
               </p>
               <Row>
                 <Col md={6}>
                   <div className="about-two__box">
                     <h3>
-                      <i className="azino-icon-confirmation"></i> Become a
-                      Volunteer
+                      <i className="azino-icon-confirmation"></i> Reliable
+                      Service
                     </h3>
-                    <p>
-                      Lorem ipsum dolor sit ametelit sed consectetur notted.
-                    </p>
                   </div>
                   <div className="about-two__box">
                     <h3>
-                      <i className="azino-icon-confirmation"></i> Quick
-                      Fundraising
+                      <i className="azino-icon-confirmation"></i> Great
+                      Communication
                     </h3>
-                    <p>
-                      Lorem ipsum dolor sit ametelit sed consectetur notted.
-                    </p>
+                  </div>
+                  <div className="about-two__box">
+                    <h3>
+                      <i className="azino-icon-confirmation"></i> High Quality
+                      Parts
+                    </h3>
                   </div>
                 </Col>
                 <Col md={6}>
                   <div className="about-two__box-two">
                     <i className="azino-icon-support"></i>
-                    <h3>You can make a big difference in someone’s life.</h3>
+                    <h5>We’ve built our reputation on hard work, integrity, and auto repair expertise. And we look forward to gaining your trust and friendship.</h5>
                   </div>
                 </Col>
               </Row>
