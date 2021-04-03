@@ -6076,7 +6076,11 @@ h6 {
 --------------------------------------------------------------*/
 .testimonials-one {
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top left;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding-right: 60px;
+  overflow: hidden;
 }
 
 .testimonials-one .block-title p {

@@ -1,33 +1,31 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import bgImage from "../../public/assets/images/shapes/testimonials-map-1-1.png";
-import heart from "../../public/assets/images/shapes/heart-2-1.png";
-import image1 from "../../public/assets/images/resources/testimonial-1-1.jpg";
-import image2 from "../../public/assets/images/resources/testimonial-1-2.jpg";
-import image3 from "../../public/assets/images/resources/testimonial-1-3.jpg";
+import bgImage from "../../public/assets/img/backgrounds/GS_Auto_Service_Lakewood_CO_phonesmileright.png";
+import heart from "../../public/assets/img/GSLogoLight.png";
+import testimonialImage1 from "../../public/assets/img/resources/repairpallogosm.png";
 
 const TESTIMONIALS_ONE_DATA = [
   {
-    image: image1,
+    image: testimonialImage1,
+    name: "Mr. L",
+    designation: "Repair Pal Verified Customer",
     text:
-      "There are many variations of passages of lorsum available but the majority have suffered alteration in form, by injected not humour.",
-    name: "Alex Cooper",
-    designation: "Customer"
+      "The service was excellent, everything was on time. \n The place was very clean and nice, even for my kids",
   },
   {
-    image: image2,
+    image: testimonialImage1,
+    name: "Karla",
+    designation: "Repair Pal Verified Customer",
     text:
-      "There are many variations of passages of lorsum available but the majority have suffered alteration in form, by injected not humour.",
-    name: "Alex Cooper",
-    designation: "Customer"
+      "It was the best place to take a car. They have great service. \n They have taken care of my mechanical needs.",
   },
   {
-    image: image3,
+    image: testimonialImage1,
+    name: "Ms. C",
+    designation: "Repair Pal Verified Customer",
     text:
-      "There are many variations of passages of lorsum available but the majority have suffered alteration in form, by injected not humour.",
-    name: "Alex Cooper",
-    designation: "Customer"
-  }
+      "They did fabulous, very nice, hardworking and very motivated to do a good job. \n He's been in business for a long time.",
+  },
 ];
 
 const TestimonialsOne = () => {
@@ -41,20 +39,19 @@ const TestimonialsOne = () => {
           <Row className=" align-items-center">
             <Col md={12} lg={7}>
               <div className="block-title">
-                <p>
-                  <img src={heart} width="15" alt="" />
+                <p className="text-white">
+                  <img src={heart} width="85" alt="" />
                   Our Testimonials
                 </p>
-                <h3>
-                  What they are talking <br /> about azino.
+                <h3 className="text-white">
+                  Our Reviews verified on RepairPal.
                 </h3>
               </div>
             </Col>
             <Col md={12} lg={5}>
               <p className="team-about__top-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Have you done google research which works all the
-                time.{" "}
+                If you’re searching for an auto repair team that you can trust,
+                look no further than GS Auto Service.
               </p>
             </Col>
           </Row>
