@@ -25,7 +25,7 @@ const Layout = ({ pageTitle, children }) => {
   });
   return (
     <div>
-     <Head>
+      <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{pageTitle}</title>
         <link rel="apple-touch-icon" sizes="180x180" href={AppleTouch} />
@@ -48,7 +48,6 @@ const Layout = ({ pageTitle, children }) => {
         />
         <meta property="fb:app_id" content="2897011323907888" />
 
-        <meta property="og:type" content="website" />
         <meta property="og:url" content="https://gsautoservice.co/" />
         <meta property="og:type" content="business.business" />
 
@@ -65,6 +64,10 @@ const Layout = ({ pageTitle, children }) => {
         <meta
           property="og:image"
           content="https://gsauto.s3-us-west-2.amazonaws.com/GS-Auto-Service-Lakewood-Service-Center-CO-1200x628.png"
+        />
+        <meta
+          property="og:image:alt"
+          content="GS Auto Service Lakewood CO Auto Repair Services"
         />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://gsautoservice.co/" />
@@ -99,7 +102,6 @@ const Layout = ({ pageTitle, children }) => {
           content="United States"
         />
         <meta property="og:site_name" content="GS Auto Service" />
-
       </Head>
       <div className="page-wrapper" id="wrapper">
         {children}
