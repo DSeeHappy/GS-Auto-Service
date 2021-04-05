@@ -102,6 +102,8 @@ const Layout = ({ pageTitle, children }) => {
           content="United States"
         />
         <meta property="og:site_name" content="GS Auto Service" />
+        <meta name="theme-color" content="#1e455b"/>
+
       </Head>
       <div className="page-wrapper" id="wrapper">
         {children}
